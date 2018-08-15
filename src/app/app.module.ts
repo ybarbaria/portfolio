@@ -5,11 +5,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // Components
 import { AppComponent } from './app.component';
 import { StickyHeaderComponent } from './components/sticky-header.component';
+import { MenuComponent } from './components/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StickyHeaderComponent
+    StickyHeaderComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
